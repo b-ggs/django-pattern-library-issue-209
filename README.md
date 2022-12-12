@@ -2,10 +2,10 @@
 
 ## Steps to reproduce:
 
-1. Install `django-pattern-library==0.7.0`, Django 3.2 LTS, and Wagtail 4.1.1 with the included `requirements.txt`
+1. Install `django-pattern-library==1.0.0`, Django 3.2 LTS, and Wagtail 4.1.1 with the included `requirements.txt`
 
 ```bash
-pip install -r requirements-pattern-library-0.7.0.txt
+pip install -r requirements-pattern-library-1.0.0.txt
 ```
 
 2. Run the development server
