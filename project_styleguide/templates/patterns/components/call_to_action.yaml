@@ -1,0 +1,11 @@
+context:
+  value:
+    cta_text: This is a call to action
+    cta_buttons:
+      - fake_cta_button
+      - fake_cta_button
+
+tags:
+  include_block:
+    cta_button:
+      template_name: "patterns/components/button.html"

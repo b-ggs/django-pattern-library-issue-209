@@ -1,0 +1,7 @@
+{% load wagtailcore_tags %}
+
+<h3>{{ value.cta_text }}<h3>
+
+{% for cta_button in value.cta_buttons %}
+  {% include_block cta_button %}
+{% endfor %}
