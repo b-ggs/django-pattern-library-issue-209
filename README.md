@@ -1,5 +1,12 @@
 # Demo project for django-pattern-library issue [#209](https://github.com/torchbox/django-pattern-library/issues/209)
 
+## Relevant templates
+
+- [`page_body.html`](https://github.com/b-ggs/django-pattern-library-issue-209/blob/main/project_styleguide/templates/patterns/components/page_body.html) - A template that represents a page's body. In this demo it just `include`s a call-to-action component.
+- [`call_to_action.html`](https://github.com/b-ggs/django-pattern-library-issue-209/blob/main/project_styleguide/templates/patterns/components/call_to_action.html) - A call-to-action component template that uses an `include_block` from Wagtail to display a button.
+- [`button.html`](https://github.com/b-ggs/django-pattern-library-issue-209/blob/main/project_styleguide/templates/patterns/components/button.html) - A button component template used by the call-to-action component.
+
+
 ## Steps to reproduce:
 
 1. Install `django-pattern-library==1.0.0`, Django 3.2 LTS, and Wagtail 4.1.1 with the included `requirements.txt`
